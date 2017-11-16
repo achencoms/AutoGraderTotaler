@@ -24,8 +24,6 @@ $("td:nth-child(3)").each(function(){
 	else proficiency += total;
 });
 
-alert("Competency Points: " + competency + "\n Proficiency Points: " + proficiency);
-
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     if( request.message === "calculate" ) {
