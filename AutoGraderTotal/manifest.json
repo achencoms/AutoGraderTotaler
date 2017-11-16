@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "AutoGraderTotal",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://autograder.cse.buffalo.edu/courses/cse115-f17/course_user_data/*/gradebook/student"
+      ],
+      "js": ["jquery-2.2.4.min.js", "content.js"]
+    }
+  ],
+  "browser_action": {
+	"default_icon" : "b.png"
+  },
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "permissions": [
+	"activeTab"
+  ]
+}
