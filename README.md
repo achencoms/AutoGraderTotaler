@@ -1,5 +1,5 @@
 # AutoGraderTotaler
-Gives Competency and Proficiency points total for AutoGrader.
+Gives your total Competency and Proficiency Points out of the total Possible.
 
 #Installation Steps:
 1) Click on "Clone or download" and proceed to click on "Download as Zip".
