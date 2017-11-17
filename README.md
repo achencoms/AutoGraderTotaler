@@ -11,5 +11,5 @@ Gives your total Competency and Proficiency Points out of the total Possible.
 1) Press the "B" when you are on the gradebook.
 
 #Version Features:
-0.1 - total competency and proficiency points
-0.1.1 - Includes total possible competency and proficiency points
+- 0.1 - total competency and proficiency points
+- 0.1.1 - Includes total possible competency and proficiency points
