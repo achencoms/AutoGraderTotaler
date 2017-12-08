@@ -39,7 +39,6 @@ $("td:nth-child(3)").each(function(){
 		else{
 			if($(this).prev().prev().find("a").text() == "Word Play - Part 3 - Extra Credit") 2+3;
 			else{
-				if($(this).prev().prev().find("a").text() == "Word Play - Part 2") proficiencyPossible += 4; //Word Play Part 2 total is messed up
 				proficiency += total;
 				proficiencyPossible += totalPossible;
 			}
