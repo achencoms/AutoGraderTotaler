@@ -22,7 +22,7 @@ $("td:nth-child(3)").each(function(){
 				proficiencyPossible += 2;
 				competencyPossible += 150;
 			}
-			if(totalPossible == 252){
+			else if(totalPossible == 252){
 				if(total > 250){
 					proficiency += total % 250;
 					competency += 250;
