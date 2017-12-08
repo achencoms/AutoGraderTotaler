@@ -22,15 +22,27 @@ $("td:nth-child(3)").each(function(){
 				proficiencyPossible += 2;
 				competencyPossible += 150;
 			}
+			if(totalPossible == 252){
+				if(total > 250){
+					proficiency += total % 250;
+					competency += 250;
+				}
+				else competency += total;
+				proficiencyPossible += 2;
+				competencyPossible += 250;
+			}
 			else {
 				competency += total;
 				competencyPossible += totalPossible;
 			}
 		}
 		else{
-			if($(this).prev().prev().find("a").text() == "Word Play - Part 2") proficiencyPossible += 4; //Word Play Part 2 total is messed up
-			proficiency += total;
-			proficiencyPossible += totalPossible;
+			if($(this).prev().prev().find("a").text() == "Word Play - Part 3 - Extra Credit") 2+3;
+			else{
+				if($(this).prev().prev().find("a").text() == "Word Play - Part 2") proficiencyPossible += 4; //Word Play Part 2 total is messed up
+				proficiency += total;
+				proficiencyPossible += totalPossible;
+			}
 		}
 	}
 });
